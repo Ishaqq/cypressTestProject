@@ -1,0 +1,23 @@
+{
+  "name": "cypresstestproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordDashBoard": "npm run test -- --record --key 2635a1b9-8e09-4777-8425-d04f1f8fb5f1 --reporter mochawesome",
+    "GreanCart":"npm run test -- --spec \"cypress/intigration/GreenKart/*\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.8.0",
+    "mocha": "^10.0.0"
+  },
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1",
+    "mochawesome": "^7.1.3"
+  }
+}

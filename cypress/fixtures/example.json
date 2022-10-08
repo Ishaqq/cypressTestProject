@@ -1,0 +1,7 @@
+{
+  "name": "testing",
+  "gender": "Male",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "FproductName": ["Blackberry","Samsung Note 8","Nokia Edge"]
+}
